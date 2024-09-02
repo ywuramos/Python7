@@ -1,0 +1,8 @@
+d = float(input('Quanto tem em dinheiro R$'))
+do = d / 4.87
+print('Se compra com R${:.2f} reais um total de ${:.2f} dolares'.format(d, do))
+
+# --------------------------
+
+d = float(input('Quanto tem em dinheiro R$'))
+print('compre ${:.2f} dolares'.format(d / 3.27))
